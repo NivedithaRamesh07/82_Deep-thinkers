@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+/* Logo animation */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Header with gradient background */
+.App-header {
+  background: linear-gradient(135deg, #000000, #1a1a1a); /* Black gradient */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #ffffff; /* White text for contrast */
+  padding: 20px;
+}
+
+/* Links */
+.App-link {
+  color: #078d5c;
+}
+
+/* Table styling for dark mode (optional, works with you*
